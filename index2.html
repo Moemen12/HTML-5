@@ -1,0 +1,425 @@
+<!--
+                                                     Semantic Elements    
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <header>Head Of Website</header>
+    <nav>Link - Link - Link</nav>
+    <section>
+      <section></section>
+      <aside></aside>
+    </section>
+    <footer>Footer</footer>
+  </body>
+</html>
+
+
+                                                    Layout With Div And Classes
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <div class="header">
+      <h2>Logo</h2>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+    <hr>
+    <ul class="navigation">
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+    </ul>
+    <hr>
+    <div class="content">
+      <img src="imgs/home/cover-speed-website.png" alt="">
+    </div>
+    <div class="sidebar">
+      Sidebar
+    </div>
+    <hr>
+    <div class="footer">
+      Footer
+    </div>
+  </body>
+</html>
+                                                   Layout With Semantic Elements
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <header>
+      <h2>Logo</h2>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact Us</li>
+      </ul>
+    </header>
+    <hr>
+    <nav>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+    </nav>
+    <hr>
+    <section>
+      <figure>
+        <img src="imgs/home/cover-speed-website.png" alt="">
+        <figcaption>Caption Of The Image</figcaption>
+      </figure>
+    </section>
+    <aside>
+      Sidebar
+    </aside>
+    <hr>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>
+
+                                                    Audio
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This Is My Book Store, Welcome</p>
+    </div>
+    <audio controls autoplay loop muted>
+      <source src="media/one_way_ticket.mp3" type="audio/mpeg">
+      <source src="media/one_way_ticket.ogg" type="audio/ogg">
+      <source src="media/one_way_ticket.wav" type="audio/wav">
+      Your Browser Does Not Support Audio Tags
+    </audio>
+  </body>
+</html>
+
+                                                 Video
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This Is My Book Store, Welcome</p>
+    </div>
+    <video controls width="600" height="400" autoplay loop muted poster="imgs/home/cover-speed-website.png">
+      <source src="media/ghosts.mp4" type="video/mp4">
+      <source src="media/ghosts.ogg" type="video/ogg">
+      Your Browser Does Not Support Video Tag
+      <track src="my_file_en.vtt" kind="subtitles" srclang="en" label="English">
+      <track src="my_file_it.vtt" kind="subtitles" srclang="it" label="Italian">
+    </video>
+  </body>
+</html>
+
+                                                     Input Types And Label
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This Is My Book Store, Welcome</p>
+    </div>
+    <form>
+      <div>
+        <label>Username</label>
+        <input type="text">
+      </div>
+      <br>
+      <div>
+        <label>Password</label>
+        <input type="password">
+      </div>
+      <input type="submit">
+    </form>
+  </body>
+</html>
+
+
+                                                   Form Part 2 – Required, Placeholder, Value
+
+   <!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This Is My Book Store, Welcome</p>
+    </div>
+    <form>
+      <div>
+        <label>Username</label>
+        <input type="text" required placeholder="Username">
+      </div>
+      <br>
+      <div>
+        <label>Subject</label>
+        <input type="text">
+      </div>
+      <br>
+      <div>
+        <label>Password</label>
+        <input type="password" required placeholder="Write A Complex Password">
+      </div>
+      <br>
+      <div>
+        <label>Email</label>
+        <input type="email" required placeholder="Write A Valid Email" value="o@nn.sa">
+      </div>
+      <input type="submit" value="Save">
+    </form>
+  </body>
+</html>                                                
+
+ 
+                                               Form Part 3 - Action, Name, Method
+  <!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This Is My Book Store, Welcome</p>
+    </div>
+    <form action="" method="POST">
+      <div>
+        <label>Username</label>
+        <input type="text" required placeholder="Username" name="user">
+      </div>
+      <br>
+      <div>
+        <label>Subject</label>
+        <input type="text" name="subject">
+      </div>
+      <br>
+      <div>
+        <label>Password</label>
+        <input type="password" required placeholder="Write A Complex Password" name="pass">
+      </div>
+      <br>
+      <div>
+        <label>Email</label>
+        <input type="email" required placeholder="Write A Valid Email" value="o@nn.sa" name="mail">
+      </div>
+      <input type="submit" value="Save">
+    </form>
+  </body>
+</html>
+
+                                        Form Part 4 - Hidden, Reset, Color, Range, Number
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This Is My Book Store, Welcome</p>
+    </div>
+    <form action="" method="GET">
+      <input type="hidden" value="Osama">
+      <div>
+        <label>Username</label>
+        <input type="text" required placeholder="Username" name="user">
+      </div>
+      <br>
+      <div>
+        <label>Subject</label>
+        <input type="text" name="subject">
+      </div>
+      <br>
+      <div>
+        <label>Password</label>
+        <input type="password" required placeholder="Write A Complex Password" name="pass">
+      </div>
+      <br>
+      <div>
+        <label>Email</label>
+        <input type="email" required placeholder="Write A Valid Email" value="o@nn.sa" name="mail">
+      </div>
+      <br>
+      <div>
+        <label>Color</label>
+        <input type="color" name="Color">
+      </div>
+      <br>
+      <div>
+        <label>Range</label>
+        <input type="range" name="range" min="0" max="100" step="20" value="80">
+      </div>
+      <br>
+      <div>
+        <label>Number</label>
+        <input type="number" name="number" min="10" max="100" step="10">
+      </div>
+      <input type="reset" value="Reset">
+      <input type="submit" value="Save">
+    </form>
+  </body>
+</html>
+
+                                                     Form Part 5 - ReadOnly, Disabled, Autofocus
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This Is My Book Store, Welcome</p>
+    </div>
+    <form action="" method="GET">
+      <input type="hidden" value="Osama" />
+      <div>
+        <label>Username</label>
+        <input type="text" required placeholder="Username" name="user" value="Osama" readonly />
+      </div>
+      <br />
+      <div>
+        <label>Subject</label>
+        <input type="text" name="subject" autofocus />
+      </div>
+      <br />
+      <div>
+        <label>Password</label>
+        <input
+          type="password"
+          required
+          placeholder="Write A Complex Password"
+          name="pass"
+          minlength="10"
+          maxlength="20"
+        />
+      </div>
+      <br />
+      <div>
+        <label>Email</label>
+        <input type="email" required placeholder="Write A Valid Email" value="o@nn.sa" name="mail" disabled />
+      </div>
+      <br />
+      <div>
+        <label>Color</label>
+        <input type="color" name="Color" />
+      </div>
+      <br />
+      <div>
+        <label>Range</label>
+        <input type="range" name="range" min="0" max="100" step="20" value="80" />
+      </div>
+      <br />
+      <div>
+        <label>Number</label>
+        <input type="number" name="number" min="10" max="100" step="10" />
+      </div>
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>
+
+                                                     Form Part 6 – Radio And Checkbox
+
+
+  <div>
+        <input id="win" type="radio" name="os" value="Windows" checked />
+        <label for="win">Windows</label>
+      </div>
+      <div>
+        <input id="lin" type="radio" name="os" value="Linux" />
+        <label for="lin">Linux</label>
+      </div>
+      <div>
+        <input id="mac" type="radio" name="os" value="Mac" />
+        <label for="mac">Mac</label>
+      </div>
+      <hr />
+      <div>
+        <input id="win1" type="checkbox" name="os" value="Windows" checked />
+        <label for="win1">Windows</label>
+      </div>
+      <div>
+        <input id="lin1" type="checkbox" name="os" value="Linux" />
+        <label for="lin1">Linux</label>
+      </div>
+      <div>
+        <input id="mac1" type="checkbox" name="os" value="Mac" />
+        <label for="mac1">Mac</label>
+      </div>
+      <br />
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>                                                    
+
+
+
+-->
