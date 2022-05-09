@@ -1,0 +1,246 @@
+<!--
+                                               Form Part 7 - Select And Textarea
+   
+  <label for="book">Choose Book:</label>
+      <select name="book" id="book">
+        <optgroup label="Romantic Books">
+          <option value="1">Book 1</option>
+          <option value="2">Book 2</option>
+          <option value="3">Book 3</option>
+        </optgroup>
+        <optgroup label="Police Books">
+          <option value="4" selected>Book 4</option>
+          <option value="5">Book 5</option>
+          <option value="6">Book 6</option>
+        </optgroup>
+      </select>
+      <hr />
+      <textarea name="subject" cols="40" rows="10" placeholder="Test Text"></textarea>
+      <hr />
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>
+
+                                               Form Part 8 - File, Search, URL, Time
+
+
+      <div>
+        <label>Upload</label>
+        <input type="file" />
+      </div>
+
+      <hr />
+
+      <div>
+        <label>Search</label>
+        <input type="search" />
+      </div>
+
+      <hr />
+
+      <div>
+        <label>Url</label>
+        <input type="url" />
+      </div>
+
+      <hr />
+
+      <div>
+        <label>Date</label>
+        <input type="date" />
+      </div>
+
+      <hr />
+
+      <div>
+        <label>Month</label>
+        <input type="month" />
+      </div>
+
+      <hr />
+
+      <div>
+        <label>Time</label>
+        <input type="time" />
+      </div>
+
+      <hr />
+
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>
+
+                                             Form Part 9 – Data List, NoValidate, Target
+
+
+
+      <div>
+        <label>Date</label>
+        <input type="date" />
+      </div>
+
+      <hr />
+
+      <div>
+        <label>Month</label>
+        <input type="month" />
+      </div>
+
+      <hr />
+
+      <div>
+        <label>Time</label>
+        <input type="time" />
+      </div>
+
+      <input list="programming" name="prog">
+
+      <datalist id="programming">
+        <option value="Python">
+        <option value="PHP">
+        <option value="C#">
+        <option value="C">
+        <option value="C++">
+        <option value="Scala">
+      </datalist>
+
+      <hr />
+
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>
+ 
+                                                          Q, BlockQuote, Wbr, Bdi, Button
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <q>This Is Wise Word</q>
+    <blockquote>This Is Wise Word</blockquote>
+    <button>Click</button>
+    <div>
+      https://www.youtube.com/<wbr>playlist?list=PLM_i0obccy3swdHfFh1FrLEVVFMp8<wbr>-5Jc&fbclid=IwAR2eP038MSFNJSmNCssdpaBm3KofEJUG9e<wbr>jR95GGGm9AKB0StOIPpLA6fgc
+    </div>
+    <p>السلام 2 Welcome</p>
+    <p><bdi>السلام</bdi> 2 Welcome</p>
+  </body>
+</html>
+
+                                                       iFrame, Pre, Code
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <code>
+      var x = 10;
+      var y = 20;
+      console.log(x + y);
+    </code>
+    <p>
+      This Is
+      P
+      New Line
+      New Line
+    </p>
+    <pre>
+      This Is
+      P
+      New Line
+      New Line
+    </pre>
+    <pre>
+      <code>
+        var x = 10;
+        var y = 20;
+        console.log(x + y);
+      </code>
+    </pre>
+    <iframe src="https://elzero.org/" width="800" height="400"></iframe>
+  </body>
+</html>
+
+                                                    Accessibility Intro
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <form action="">
+      <label for="user">Username</label>
+      <input id="user" type="text" name="user">
+      Old 
+      <div>Send</div>
+      <div>Reset</div>
+      New 
+      <button>Send</button>
+      <button>Reset</button>
+    </form>
+  </body>
+</html>
+ 
+                                                  ARIA And Screen Readers
+     <!doctype html>
+     <html lang="en">
+       <head>
+         <meta charset="UTF-8" />
+         <title>Book Store</title>
+         <meta name="description" content="This Is Our Book Store" />
+       </head>
+       <body>
+          ARIA 
+         <h1>Book Title</h1>
+     
+         <h3>Chapter One</h3>
+         <p>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptas placeat necessitatibus nulla velit quae
+           reprehenderit minus fugiat illo tempora eaque, ullam corrupti doloribus perspiciatis unde rem perferendis nesciunt
+           aspernatur!
+         </p>
+         <div>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quisquam sed at reiciendis asperiores officia
+           similique id non, ducimus nobis possimus eligendi itaque magni molestias illum quam beatae. Velit, facilis?
+         </div>
+         <h2>Inside Chapter One</h2>
+         <form action="">
+           <label for="skill1">Skill One</label>
+           <input id="skill1" type="checkbox" checked />
+           <label for="skill2">Skill Two</label>
+           <input id="skill2" type="checkbox" />
+         </form>
+         <hr />
+         <div role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="plan1">Plan One</div>
+         <label id="plan1">Plan One Label</label>
+         <div tabindex="0">Plan Two</div>
+         <div tabindex="0">Plan Three</div>
+       </body>
+     </html>
+
+
+
+
+
+-->
+
+
