@@ -1,0 +1,58 @@
+/*                                             CANVAS
+
+
+var myCanvas = document.getElementById('c'),
+  myContext = myCanvas.getContext('2d');
+myCanvasWidth = myCanvas.width;
+myCanvasHeight = myCanvas.height;
+
+myContext.fillStyle = '#EEE';
+myContext.fillRect(0, 0, myCanvasWidth, myCanvasHeight);
+myContext.strokeStyle = 'red';
+myContext.lineWidth = 10;
+
+//Top left line
+myContext.moveTo(10, 10);
+myContext.lineTo(130,130);
+myContext.stroke();
+
+//Top right line
+myContext.moveTo(290, 10);
+myContext.lineTo(170,130);
+myContext.stroke();
+
+//buttom left line
+myContext.moveTo(10, 290);
+myContext.lineTo(130,170);
+myContext.stroke();
+
+//buttom right line
+myContext.moveTo(290, 290);
+myContext.lineTo(170,170);
+myContext.stroke();
+
+--------------------------------------------------------
+
+
+
+
+var myCanvas = document.getElementById('c'),
+  myContext = myCanvas.getContext('2d');
+
+myContext.font = '60px Arial';
+myContext.fillStyle = '#F00';
+myContext.strokeStyle='red';
+myContext.fillText('E', 20, 50);
+myContext.fillStyle = 'green';
+myContext.fillText('L', 40, 70);
+myContext.fillStyle = 'blue';
+myContext.fillText('Z', 60, 90);
+myContext.fillStyle = 'yellow';
+myContext.fillText('E', 80, 110);
+myContext.fillStyle = 'red';
+myContext.fillText('R', 100, 130);
+myContext.fillStyle = 'pink';
+myContext.fillText('O', 120, 150);
+myContext.strokeText('School', 50, 200);
+
+*/
